@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0156E18B1CD9C31F005B85B2"
+               BuildableName = "sampleJSON003.app"
+               BlueprintName = "sampleJSON003"
+               ReferencedContainer = "container:sampleJSON003.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0156E19F1CD9C320005B85B2"
+               BuildableName = "sampleJSON003Tests.xctest"
+               BlueprintName = "sampleJSON003Tests"
+               ReferencedContainer = "container:sampleJSON003.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0156E1AA1CD9C320005B85B2"
+               BuildableName = "sampleJSON003UITests.xctest"
+               BlueprintName = "sampleJSON003UITests"
+               ReferencedContainer = "container:sampleJSON003.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0156E18B1CD9C31F005B85B2"
+            BuildableName = "sampleJSON003.app"
+            BlueprintName = "sampleJSON003"
+            ReferencedContainer = "container:sampleJSON003.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0156E18B1CD9C31F005B85B2"
+            BuildableName = "sampleJSON003.app"
+            BlueprintName = "sampleJSON003"
+            ReferencedContainer = "container:sampleJSON003.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0156E18B1CD9C31F005B85B2"
+            BuildableName = "sampleJSON003.app"
+            BlueprintName = "sampleJSON003"
+            ReferencedContainer = "container:sampleJSON003.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
